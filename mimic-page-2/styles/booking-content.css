@@ -1,0 +1,130 @@
+
+.detail-content {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.content-1 {
+    background-image: url("../images/cebupac-img-1.webp");
+    height: 800px;
+    width: 1900px;
+    background-size: 1900px 800px;
+    position: relative;
+}
+
+.nameplace-content-1 {
+    position: absolute;
+    top: 330px;
+    left: 700px;
+    color: white;
+    font-size: 90px;
+
+}
+
+.sidebar-content-1 {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+
+.sidebar-item-1, .sidebar-item-2, .sidebar-item-3, .sidebar-item-4 {
+    height: 20px;
+    width: 25px;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+
+
+.flight-content-bg {
+    position: absolute;
+    width: 1000px;
+    height: 200px;
+    background-color: white;
+    left: 430px;
+    top: 480px;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+
+.flight-content-1 {
+    position: absolute;
+    top: 560px;
+    left: 540px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.flight-fields {
+    margin-left: -60px;
+}
+
+.flight-fields-label {
+    position: absolute;
+    top: -35px;
+    font-weight: bolder;
+    color: white;
+    margin-left: -60px;
+}
+.flight-fields-label-inside-box {
+    position: absolute;
+    font-size: 11px;
+    margin-left: 3px;
+    margin-top: -30px;
+}
+
+.flight-label-from {
+    position: absolute;
+    margin-left: 5px;
+}
+
+.flight-label-to {
+    position: absolute;
+    margin-left: 175px;
+}
+
+.flight-label-depart {
+    position: absolute;
+    margin-left: 360px;
+    margin-top: -2px;
+}
+
+.flight-label-return {
+    position: absolute;
+    margin-left: 525px;
+    margin-top: -2px;
+}
+
+.roundtrip-label {
+    position: absolute;
+    left: 350px;
+}
+
+.flight-origin, .flight-dest, .flight-dept-date, .flight-return-date {
+    height: 40px;
+    width: 160px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.flight-dept-date {
+    margin-left: 20px;
+}
+
+.flight-btn {
+    margin-left: 35px;
+    border-style: none;
+    color: white;
+    background-color:  rgb(0, 164, 229);
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    width: 200px;
+}

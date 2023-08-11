@@ -1,0 +1,44 @@
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    border-style: none;
+    justify-content: space-between;
+    height: 100px;
+    position: fixed;
+    width: 1880px;
+}
+
+.text-logo {
+    width: 200px;
+    margin-left: 50px;
+    font-size: 26px;
+    font-weight: bolder;
+    color: orange;
+    margin-top: 20px;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    color: white;
+    font-size: 21px;
+}
+
+.menu-item-1:hover, .menu-item-2:hover, .menu-item-3:hover, .menu-item-4:hover, .menu-item-:hover {
+    color: orange;
+} 
+
+.search-box {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 250px;
+    border-radius: 12px;
+    border-style: none;
+    padding-left: 20px;
+}

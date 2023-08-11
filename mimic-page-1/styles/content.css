@@ -1,0 +1,37 @@
+
+.main-content {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.details-content {
+    position: relative;
+    top: 200px;
+    left: 545px;
+}
+
+.detail-msg {
+    font-size: 100px;
+    color: white;
+}
+
+.details-btn {
+    position: absolute;
+    top: 250px;
+    left: 260px;
+}
+
+.btn-item-1, .btn-item-2 {
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    background-color: transparent;
+}
+
+.btn-item-1:hover, .btn-item-2:hover {
+    background-color: orange;
+}

@@ -1,0 +1,48 @@
+
+
+.content-2 {
+    margin-top: 100px;
+}
+
+.content-2-item-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 250px;
+}
+
+.content-2-description {
+    margin-left: 550px;
+    height: 500px;
+    width: 300px;
+}
+
+.content-2-title {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.content-2-msg {
+    color: grey
+}
+
+.conent-2-img {
+    margin-left: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.content-2-item-2 {
+    margin-left: 550px;
+}
+
+.content-2-item-2-img-1, .content-2-item-2-img-2, .content-2-item-2-img-3, .content-2-item-2-img-4 {
+    width: 150px;
+    height: 150px;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: grey;
+    border-style: solid;
+    margin-right: 20px;
+}
